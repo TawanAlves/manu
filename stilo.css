@@ -1,0 +1,80 @@
+@charset UTF-8;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+section.topo{
+    background-image: url(imagens/ftfundo.jpg);
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #3A305C, #AE4A9C 70%);
+    width: 100vw;
+    height: 800px;
+}
+section.txttopo{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    padding: 5px;
+    padding-top: 10px;
+}
+id#video{/*Configurar responsividade*/        
+    padding: 10px 0px; 
+    display: block;
+    margin: auto;
+}
+id#video > iframe{
+    width: 100vw;
+    max-width: 620px;
+    
+}
+a.btcompra{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+a.btcompra > p{
+    font-size: 18px;
+    font-weight: bold;
+    background-color:#37305B ;
+    padding: 20px 40px;
+    margin: auto;
+    width: 320px;
+    border-radius: 300px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.727);
+}
+img.garantia{
+    padding-top: 30px;
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+}
+section.ben {
+    color:  #37305B;
+    margin: auto;
+ font-family: 'Poppins', sans-serif;   
+}
+div.divben{
+    display: flex;
+}
+div.divben2{
+    /*aprender flexbox*/
+}
+    max-width:
+section.ben > h2{
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 10px;}
+section.ben > h3{
+    font-size: 25px;
+    font-weight:300px;
+}
