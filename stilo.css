@@ -14,7 +14,7 @@ section.topo{
     text-align: center;
     background-image: linear-gradient(to bottom right, #3A305C, #AE4A9C 70%);
     width: 100vw;
-    height: 800px;
+    height: 670px;
 }
 section.txttopo{
     color: white;
@@ -60,16 +60,29 @@ img.garantia{
 }
 section.ben {
     color:  #37305B;
-    margin: auto;
- font-family: 'Poppins', sans-serif;   
+    font-family: 'Poppins', sans-serif; 
+    height: 629px;  
+}
+div#benef{
+    display: flex;
+    justify-content: center;
+
 }
 div.divben{
-    display: flex;
+    max-width: 760px;
+    height: 100%;
+    max-width: 300px;
+    border: 1px solid black;
 }
-div.divben2{
-    /*aprender flexbox*/
+div.divben > h3{
+    text-align: center;
 }
-    max-width:
+div.divben > p{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin:10px;
+}
 section.ben > h2{
     text-align: center;
     font-size: 20px;
@@ -77,4 +90,12 @@ section.ben > h2{
 section.ben > h3{
     font-size: 25px;
     font-weight:300px;
+}
+
+section#fotos1{
+    background-color: #221E39;
+}
+
+section#fotos1 > div{
+    background-color: white;
 }
