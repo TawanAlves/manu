@@ -1,20 +1,30 @@
 @charset UTF-8;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Sans-serif;
+   height: 100vh;
+   width: 100vw;
 }
-section.topo{
+main{
+    
+}
+header.topo{
     background-image: url(imagens/ftfundo.jpg);
     text-align: center;
     background-image: linear-gradient(to bottom right, #3A305C, #AE4A9C 70%);
     width: 100vw;
-    height: 670px;
+    height: auto;
+    padding-bottom: 20px;
 }
 section.txttopo{
     color: white;
@@ -59,43 +69,166 @@ img.garantia{
     max-width: 100%;
 }
 section.ben {
-    color:  #37305B;
+    color: #39325E;
     font-family: 'Poppins', sans-serif; 
-    height: 629px;  
+    height: 500px;  
+    text-align: center;
+    padding-top: 15px;
+    
 }
 div#benef{
     display: flex;
-    justify-content: center;
-
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 93px;
+    
 }
 div.divben{
-    max-width: 760px;
-    height: 100%;
-    max-width: 300px;
-    border: 1px solid black;
+    padding: 20px 5px;
+    width: 265px;
+   
 }
 div.divben > h3{
     text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
 }
 div.divben > p{
     text-align: center;
-    padding-top: 20px;
-    padding-left: 20px;
+    font-family: 300;
+    padding-top: 5px;
     margin:10px;
+    color: grey;
 }
 section.ben > h2{
+    
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    width: 96vw;
     text-align: center;
-    font-size: 20px;
-    padding: 30px 10px;}
+    font-size: 29px;
+    padding: 10px 0px;}
 section.ben > h3{
     font-size: 25px;
     font-weight:300px;
 }
 
 section#fotos1{
-    background-color: #221E39;
+    background-image: url(imagens/ftfundo2.jpg);
+    background-image: linear-gradient(to bottom right, #24203C,#38315D);
+    padding: 30px 0px;
+}
+section#fotos1 > h2{
+    max-width: 1120px;
+    margin: auto;
+    color: white;
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight:600;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 5px;
 }
 
-section#fotos1 > div{
-    background-color: white;
+div.sec3{
+    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+
 }
+section#fotos1 > div{
+    
+}
+div.imgsec3{
+    background-color: white;
+    width: 266.65px;
+
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    border-radius: 30px;
+    margin: 10px ;
+    padding: 15px;
+    height: 573px;
+
+
+}
+div.imgsec3 > p{
+
+    text-align: center;
+    color: #4E4E4E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+div.imgsec3> h2{
+    color: #39325E;
+    font-family: "Oxygen", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    padding-bottom: 20px;
+}
+
+section#fotos1  img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 760px){
+   
+    section.ben{
+       text-align: center;
+       height: auto;
+
+    }
+    div#benef{
+        display:block;
+        margin: 0px;
+        
+    }
+    div.divben{
+        padding: 20px 5px;
+        width: 96vw;
+       
+    }
+
+    section#fotos1 > h2{
+        color: white;
+        font-family: "Roboto", Sans-serif;
+        font-size: 30px;
+        font-weight:700;
+        text-decoration: none;
+        margin: auto;  
+    }
+    div.imgsec3{
+        background-color: white;
+        width: 96vw;
+    
+        box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+        border-radius: 30px;
+        margin: 10px ;
+        padding: 15px;
+        height: 507px;
+    }
+    div.imgsec3 > p{
+
+        text-align: center;
+        color: #4E4E4E;
+        font-family: "Poppins", Sans-serif;
+        font-size: 21px;
+        font-weight: 300;
+        text-transform: uppercase;
+        padding-bottom: 14px;
+    }
+   
+}
+   

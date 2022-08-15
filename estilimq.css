@@ -1,0 +1,50 @@
+@charset UTF-8;
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600&display=swap');
+
+body{
+    font-family:  'DynaPuff', cursive;
+}
+
+header{
+    background-color: green;
+    height: 50px;
+}
+aside{
+    display: inline-block;
+    background-color: rgb(115, 241, 115);
+    width: 120px;
+    height: 100vh;
+}
+section{
+    display: inline-block;
+
+    background-color: rgb(27, 255, 27);
+    height:100vh;
+    width: 37vw;
+}
+footer {
+    background-color: rgb(150, 233, 150);
+}
+
+@media screen and (max-width: 760px){
+    header{
+        background-color: green;
+        height: 50px;
+    }
+    aside{
+        
+        background-color: rgb(115, 241, 115);
+        width: 100vw;
+        height: 70vh;
+    }
+    section{
+        
+        background-color: rgb(27, 255, 27);
+        height:40px;
+        width: 100vw;
+    }
+    footer {
+        background-color: rgb(150, 233, 150);
+    }
+}
