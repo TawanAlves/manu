@@ -131,8 +131,7 @@ section#fotos1 > h2{
     padding: 10px 5px;
 }
 
-div.sec3{
-    
+div.sec3{   
     display: flex;
     flex-wrap: wrap;
     max-width: 1000px;
@@ -141,9 +140,6 @@ div.sec3{
     text-align: center;
     margin: auto;
 
-}
-section#fotos1 > div{
-    
 }
 div.imgsec3{
     background-color: white;
@@ -154,11 +150,8 @@ div.imgsec3{
     margin: 10px ;
     padding: 15px;
     height: 573px;
-
-
 }
 div.imgsec3 > p{
-
     text-align: center;
     color: #4E4E4E;
     font-family: "Poppins", Sans-serif;
@@ -166,19 +159,85 @@ div.imgsec3 > p{
     font-weight: 300;
     text-transform: uppercase;
 }
+.h2ft1{
+    line-height: 1.3;
+}
 div.imgsec3> h2{
     color: #39325E;
     font-family: "Oxygen", Sans-serif;
     font-size: 25px;
     font-weight: 600;
     text-transform: uppercase;
-
     padding-bottom: 20px;
 }
 
 section#fotos1  img{
     width: 100%;
     padding-bottom: 20px;
+}
+
+section#sec4 {
+    padding: 35px 0px;
+    text-align: center;
+    padding: auto;
+}
+
+div.sec4{
+    max-width: 1120px;
+    margin: auto;   
+}
+section#sec4 h2{
+    font-size: 30px;
+    line-height: 1.33em;
+    color: #39325E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+section#sec4 p{
+    color: #39325E;
+    font-family: "Roboto", Sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 52px;
+    line-height: 1.5;
+}
+section#sec4 span{
+    color: #F169D7;
+    font-weight: bold;
+}
+
+#fotos2{   
+    text-align: center;
+    height: auto;
+    max-width: 100%;   
+}
+
+section#sec5 {
+    text-align: center;
+    padding: auto;
+    background-image: linear-gradient(to bottom right, #24203C,#38315D); 
+    padding: 60px 0px; 
+}
+section#sec5 > div.sec5{
+}
+section#sec5 > div > h2 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+section#sec5 > div > h2 > span{
+    color: #F169D7;
+}
+section#sec5 > div > img{
+    padding: 60px;
 }
 
 
@@ -188,12 +247,10 @@ section#fotos1  img{
     section.ben{
        text-align: center;
        height: auto;
-
     }
     div#benef{
         display:block;
-        margin: 0px;
-        
+        margin: 0px;  
     }
     div.divben{
         padding: 20px 5px;
@@ -228,6 +285,9 @@ section#fotos1  img{
         font-weight: 300;
         text-transform: uppercase;
         padding-bottom: 14px;
+    }
+    section#sec4 {
+        width: 96%;
     }
    
 }
