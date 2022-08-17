@@ -13,10 +13,11 @@
 body{
     font-family: "Poppins", Sans-serif;
    height: 100vh;
-    width: 100vw;
+   max-width: 100vw;
 }
 main{
-    
+    max-width: 100vw;
+
 } 
 header.topo{
     width: 99vw;
@@ -55,7 +56,7 @@ a.btcompra > p{
     padding: 20px 40px;
     margin: auto;
     width: 320px;
-    max-width: 80vw;
+    max-width: 60%;
     border-radius: 300px;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.727);
 }
@@ -254,7 +255,7 @@ section#sec5 > div > h2 > span{
 }
 section#sec5 > div > img{
     padding: 60px;
-    max-width: 90%;
+    max-width: 80%;
 }
 
 section#sec6 > h1 {
@@ -498,11 +499,12 @@ a.btcompraverde > p{
     padding: 20px 40px;
     margin: auto;
     width: 320px;
-    max-width: 80vw;
+    max-width: 80%;
     border-radius: 300px;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.727);
     background-color:rgb(22, 125, 22); margin: auto;
-    color: white; 
+    max-width: 60%;
+    color: red; 
 }
 a.btcompraverde{
     text-decoration: none;
