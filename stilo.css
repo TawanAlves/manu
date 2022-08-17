@@ -209,13 +209,27 @@ section#sec4 span{
 #fotos2{   
     max-width: 98vw;
     text-align: center;
-    height: auto;
-      
-    background-color: black; 
+    height: auto;     
 }
-#fotos2 > img{
+.slide1{
     max-width: 80vw;
-
+    padding-top: 20px;
+    min-width: auto;
+    margin: auto;
+}
+.slide1 img{
+    text-align: center;
+    margin: auto;
+}
+.slidet{
+    max-width: 80vw;
+    padding-top: 20px;
+    min-width: auto;
+    margin: auto;
+}
+.slidet img{
+    text-align: center;
+    margin: auto;
 }
 section#sec5 {
     text-align: center;
@@ -270,7 +284,7 @@ section#sec6 >div.slide-wpp{
 }
 section#sec6 > div{  
     text-align: center;
-    padding: auto;
+    margin: auto;
 }
 button.slick-prev.slick-arrow{
     font-size: 0;
@@ -631,6 +645,10 @@ footer > div.fot{
         margin: auto;
     }
     section#sec6 img {
+        max-width: 78vw;
+        margin: auto;        
+    }
+    section#fotos2 img {
         max-width: 78vw;
         margin: auto;        
     }
