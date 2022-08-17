@@ -40,12 +40,6 @@ div#video > iframe{
     width: 99vw;
     max-width: 620px;    
 }
-/*id#video{        
-    padding: 10px 0px; 
-    display: block;
-    margin: auto;
-}
-*/
 
 a.btcompra{
     display: block;
@@ -268,13 +262,23 @@ section#sec6 > p{
     line-height: 1;
 }
 
-section#sec6 img{
-    max-width: 78vw;
+section#sec6 >div.slide-wpp{
+    max-width: 80vw;
     padding-top: 20px;
+    min-width: auto;
+    margin: auto;
 }
 section#sec6 > div{  
     text-align: center;
     padding: auto;
+}
+button.slick-prev.slick-arrow{
+    font-size: 0;
+    border: none;
+}
+button.slick-next.slick-arrow{
+    font-size: 0;
+    border: none;
 }
 
 section#sec7{
@@ -620,6 +624,15 @@ footer > div.fot{
     }
     section#sec4 {
         width: 96%;
+    }
+    section#sec6 >div.slide-wpp{
+        max-width: 97vw;
+        padding-top: 20px;
+        margin: auto;
+    }
+    section#sec6 img {
+        max-width: 78vw;
+        margin: auto;        
     }
 
     section#sec7{
