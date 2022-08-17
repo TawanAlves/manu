@@ -315,7 +315,63 @@ section#sec7 > div {
 section#sec8{
     display: flex;
     justify-content: space-around;
+    max-width: 96vw;
 }
+
+section#sec9{
+    background-color: #38315D;
+}
+div#secnum{
+    max-width: 80vw;
+    margin: auto;
+}
+section#sec9  h2{
+    padding-top: 30px;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase; 
+    text-align: center;
+}
+section#sec9  h3{
+    padding-top: 30px;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+
+section#sec9  div.flex9 {
+    display: flex;
+    text-align: center;
+    padding-bottom: 30px;
+}
+section#sec9 h1{
+    padding-top: 10px;
+    color: #FF5BD7;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 2.5em;
+}
+section#sec9 p{ 
+    padding-top:10px;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 300;
+    line-height: 1.3em;
+    ext-align: center;
+    font-size: 19px;
+}
+section#sec9{}
+
+
+
+
 
 
 
@@ -378,7 +434,21 @@ section#sec8{
     }
    section#sec7 > div{
     max-width: 97vw;
-
    }
+   section#sec8{
+    display: block;
+}
+    section#sec8 > div{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    section#sec8  iframe{
+        max-width: 96vw;
+        padding: auto; 
+    }
+    section#sec9 div.flex9{
+        display: block;
+        
+    }
 }
    
