@@ -15,15 +15,13 @@ body{
    height: 100vh;
    width: 100vw;
 }
-main{
-    
-}
+main{} 
 header.topo{
     width: 99vw;
     background-image: url(imagens/ftfundo.jpg);
     text-align: center;
     background-image: linear-gradient(to bottom right, #3A305C, #AE4A9C 70%);
-    width: 100vw;
+    width: 99vw;
     height: auto;
     padding-bottom: 20px;
 }
@@ -34,20 +32,21 @@ section.txttopo{
     font-weight: 500;
     text-align: center;
     margin: auto;
-    max-width: 600px;
-    padding: 5px;
-    padding-top: 10px;
+    max-width: 75vw;
+    padding: 20px 3px;
 }
-id#video{/*Configurar responsividade*/        
+
+div#video > iframe{
+    width: 99vw;
+    max-width: 620px;    
+}
+/*id#video{        
     padding: 10px 0px; 
     display: block;
     margin: auto;
 }
-id#video > iframe{
-    width: 99vw;
-    max-width: 620px;
-    
-}
+*/
+
 a.btcompra{
     display: block;
     color: white;
@@ -453,7 +452,7 @@ section#sec11{
     line-height: 1;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .parcela{
     text-align: center;
@@ -471,21 +470,92 @@ section#sec11{
     padding-top: 10PX;
 }
 
+a.btcompraverde > p{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 40px;
+    margin: auto;
+    width: 320px;
+    border-radius: 300px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.727);
+    background-color:rgb(22, 125, 22); margin: auto;
+    color: white; 
+}
+a.btcompraverde{
+    text-decoration: none;
+}
+
+div.sec12{
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+    padding: 25px 0px;
+}
+div.sec12 > h2{
+    color: #39325E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+div.sec12 > p{
+    padding-top: 13px;
+    text-align: center;
+    color: #595959;
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 20px 0px;
+}
+div.sec12 > p > span{
+    color: #F169D7;
+    font-weight: bold;
+}
+div.duvidas {
+    max-width: 80vw;
+    margin: auto;   
+    padding: 25px 0px;
+
+}
+div.duvidas > h2{
+        color: #39325E;
+        font-family: "Poppins", Sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+}
+div.duvidas li{
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #39325E;
+    text-align: left;
+    line-height: 2;
+}
+
 footer{
     background-color: #39325E;
     padding: 20px 2px;
     width: 99vw;
+    padding-bottom: 20px;
 
 }
-footer > p{
+footer > div > p{
     text-align: center;
     color: #FFFFFF;
     font-family: "Roboto", Sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
-    padding-top: 30px;
+    padding: 20px 0px;
     max-width: 95vw;
-
+}
+footer > div.fot{
+    width: 80vw;
+    margin: auto;
 }
 
 
@@ -495,6 +565,13 @@ footer > p{
 
 @media screen and (max-width: 760px){
    
+    section.txttopo{     
+        padding: 20px 0px;
+    }
+    div#video iframe{
+        width: 97vw;
+    }
+    
     section.ben{
        text-align: center;
        height: auto;
