@@ -13,8 +13,7 @@
 body{
     font-family: "Poppins", Sans-serif;
    height: 100vh;
-   
-   max-width: 98vw;
+    width: 100vw;
 }
 main{
     
