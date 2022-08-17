@@ -13,9 +13,12 @@
 body{
     font-family: "Poppins", Sans-serif;
    height: 100vh;
-   width: 100vw;
+   
+   max-width: 98vw;
 }
-main{} 
+main{
+    
+} 
 header.topo{
     width: 99vw;
     background-image: url(imagens/ftfundo.jpg);
@@ -53,6 +56,7 @@ a.btcompra > p{
     padding: 20px 40px;
     margin: auto;
     width: 320px;
+    max-width: 80vw;
     border-radius: 300px;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.727);
 }
@@ -251,6 +255,7 @@ section#sec5 > div > h2 > span{
 }
 section#sec5 > div > img{
     padding: 60px;
+    max-width: 90%;
 }
 
 section#sec6 > h1 {
@@ -494,6 +499,7 @@ a.btcompraverde > p{
     padding: 20px 40px;
     margin: auto;
     width: 320px;
+    max-width: 80vw;
     border-radius: 300px;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.727);
     background-color:rgb(22, 125, 22); margin: auto;
