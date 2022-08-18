@@ -23,8 +23,7 @@ header.topo{
     width: 99vw;
     background-image: url(imagens/ftfundo.jpg);
     text-align: center;
-    /*background-image: linear-gradient(to bottom right, #3A305C, #AE4A9C 70%);*/
-    background-color: red;
+    background-image: linear-gradient(to bottom right, #3A305C, #AE4A9C 70%);
     width: 99vw;
     height: auto;
     padding-bottom: 20px;
