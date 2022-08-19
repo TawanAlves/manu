@@ -74,6 +74,10 @@ section.ben {
     padding-top: 15px;
     
 }
+div.divben img{
+    max-width: 50px;
+    max-height: 50px;
+}
 div#benef{
     display: flex;
     align-items: center;
@@ -445,17 +449,24 @@ section#sec11{
     text-align: center;
     padding: 0px 30px 10px 30px;
 }
-
+.sec11 ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    color: #E406FF;
+}
 .sec11 li{
     max-width: 422px;
     font-family: "Poppins", Sans-serif;
     font-size: 19px;
     font-weight: 300;
-    color: #FFFFFF;
     padding-left: 0px;
     padding-top: 10px;
     text-align: center;
     margin: auto;
+}
+.sec11 li>p{
+    color: #FFFFFF;
+    display: inline;
 }
 #sec11 p.corte{
     text-decoration: line-through;
@@ -554,7 +565,7 @@ div.duvidas > h2{
         text-transform: uppercase;
         text-align: center;
 }
-div.duvidas li{
+div.duvidas summary{
     font-family: "Roboto", Sans-serif;
     font-size: 22px;
     font-weight: 500;
@@ -562,6 +573,16 @@ div.duvidas li{
     color: #39325E;
     text-align: left;
     line-height: 2;
+}
+div.duvidas p{
+    padding-top: 13px;
+    text-align: justify;
+    color: #595959;
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 20px 0px;
+
 }
 
 footer{
@@ -584,12 +605,7 @@ footer > div.fot{
     width: 80vw;
     margin: auto;
 }
-
-
-
-
-
-
+ 
 @media screen and (max-width: 800px){
    
     section.txttopo{     
