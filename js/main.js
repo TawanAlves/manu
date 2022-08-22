@@ -1,10 +1,10 @@
 
-$('.slide-wpp').slick({
+// $('.slide-wpp').slick({
     
-    infinite: true,
-    speed: 300,
-  slidesToShow: 1
-});
+//     infinite: true,
+//     speed: 300,
+//   slidesToShow: 1
+// });
 
 $('.slidet').slick({
 
@@ -12,6 +12,21 @@ $('.slidet').slick({
     speed: 300,
     slidesToShow: 1,
     centerMode: true,
-    variableWidth: true
+    variableWidth: true,
+    slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+    
+  });
+  $('.slide-wpp').slick({
+
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    centerMode: true,
+    variableWidth: true,
+    slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
   });
   
