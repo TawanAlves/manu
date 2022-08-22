@@ -61,6 +61,9 @@ a.btcompra > p{
     border-radius: 300px;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.727);
 }
+a.btcompra :hover{
+    background-color: #544594 ;
+}
 img.garantia{
     padding-top: 30px;
     margin: auto;
@@ -220,6 +223,9 @@ section#sec4 span{
     max-width: 98vw;
     text-align: center;
     height: auto;     
+}
+#fotos2  img{
+    max-height: 400px;
 }
 .slide1{
     max-width: 80vw;
@@ -523,6 +529,9 @@ a.btcompraverde > p{
 }
 a.btcompraverde{
     text-decoration: none;
+}
+a.btcompraverde :hover{
+    background-color:rgb(33, 196, 33) ;
 }
 
 div.sec12{
