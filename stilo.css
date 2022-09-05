@@ -75,7 +75,7 @@ section.ben {
     font-family: 'Poppins', sans-serif; 
     min-height: 500px;    
     text-align: center;
-    padding-top: 15px;
+    padding-top: 50px; 
     
 }
 div.divben img{
@@ -123,7 +123,7 @@ section.ben > h3{
 section#fotos1{
     background-image: url(imagens/ftfundo2.jpg);
     background-image: linear-gradient(to bottom right, #24203C,#38315D);
-    padding: 30px 0px;
+    padding: 50px 0px;
     text-transform: uppercase;
 }
 section#fotos1 > h2{
@@ -184,7 +184,7 @@ section#fotos1  img{
 }
 
 section#sec4 {
-    padding: 35px 0px;
+    padding: 70px 0px 10px 0px;
     text-align: center;
     padding: auto;
 }
@@ -203,7 +203,7 @@ section#sec4 h2{
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    padding: 10px 0px;
+    padding: 0px 0px 27px 0px
 }
 
 section#sec4 p{
@@ -222,7 +222,8 @@ section#sec4 span{
 #fotos2{   
     max-width: 98vw;
     text-align: center;
-    height: auto;     
+    height: auto;  
+    padding-bottom: 45px;   
 }
 #fotos2  img{
     max-height: 400px;
@@ -350,10 +351,12 @@ section#sec8{
     display: flex;
     justify-content: space-around;
     max-width: 96vw;
+    padding-bottom: 70px;
 }
 
 section#sec9{
     background-color: #38315D;
+    padding: 30px 0px;
 }
 div#secnum{
     max-width: 80vw;
@@ -538,7 +541,7 @@ div.sec12{
     max-width: 80vw;
     margin: auto;
     text-align: center;
-    padding: 25px 0px;
+    padding: 37px 0px;
 }
 div.sec12 > h2{
     color: #39325E;
@@ -567,6 +570,9 @@ div.duvidas {
     margin: auto;   
     padding: 25px 0px;
 
+}
+section#duvidas{
+    padding: 20px 0px;
 }
 div.duvidas > h2{
         color: #39325E;
