@@ -611,7 +611,7 @@ footer > div.fot {
   margin: auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   
   section.txttopo h1 {
     font-size: 28px;
@@ -674,7 +674,7 @@ section#sec5 > div > h2 {
 }
 
   section#sec6 > div.slide-wpp {
-    max-width: 97vw;
+    max-width: 85vw;
     padding-top: 20px;
     margin: auto;
   }
