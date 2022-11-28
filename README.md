@@ -1,6 +1,6 @@
   Link: https://tawanalves.github.io/manu/
   <br>
-  Created using Typescript and React
+  Created using HTML and CSS
   <p align ="center">
  <img src="src/assets/1.png">
  <p><p>
